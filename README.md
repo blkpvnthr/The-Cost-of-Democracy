@@ -2,7 +2,7 @@
 
 **Track how retail prices have changed since the 2024 U.S. presidential election.**
 
-> A lightweight, data-driven project that scrapes and analyzes product prices over time to explore the economic aftermath of democratic transitions. Built using Python, SerpAPI, and pandas.
+> A lightweight, data-driven project that scrapes and analyzes product prices over time to explore the economic aftermath of U.S. democratic transitions. Built using Python, SerpAPI, and pandas.
 
 ---
 
