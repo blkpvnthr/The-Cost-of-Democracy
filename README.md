@@ -63,31 +63,31 @@ python analyze.py --product "Nintendo Switch OLED"
 Each team member should:
 ### 1. Create their own feature branch:
 ```bash
-    git checkout -b feature/your-feature-name
+git checkout -b feature/your-feature-name
  ```
 
 ### 2. Set their branch as the upstream:
 ```bash
-    git push --set-upstream origin your-feature-branch
+ git push --set-upstream origin your-feature-branch
 ```
 
 ### 3. Before making new changes, always sync with main using rebase. Make sure your working directory is clean first::
 ```bash 
-    git status  # Check for uncommitted changes
-    git pull --rebase origin main
+ git status  # Check for uncommitted changes
+ git pull --rebase origin main
 ```
 
 ### 4. If git status shows changed files (in red), stage them to avoid conflicts:
 ```bash
-   git add .
-   git commit -m "syncing with main"
+git add .
+git commit -m "syncing with main"
 ```
 
 ### 5. Make your changes, commit, and push:
 ```bash
-    git add .
-    git commit -m "your descriptive commit message"
-    git push
+ git add .
+ git commit -m "your descriptive commit message"
+ git push
 ```
 
 ### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
