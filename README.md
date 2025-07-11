@@ -57,16 +57,6 @@ python analyze.py --product "Nintendo Switch OLED"
 
 ---
 
-## 📊 Sample Output
-```
-Product: Nintendo Switch OLED
-Price on 2024-07-11: $349.99
-Price on 2025-07-11: $319.00
-YoY Change: -8.86%
-```
-
----
-
 ## 🧠 Why This Exists
 
 Politics influence markets — sometimes subtly, sometimes dramatically. This project explores how the **cost of living shifts over the course of presidential terms**, beginning with the 2024 election. By tracking changes over time, it brings evidence to economic conversations too often driven by speculation.
@@ -106,12 +96,6 @@ We encourage collaborative contributions! Here's how to stay in sync:
 5. **Submit a PR** on GitHub and request a review.
 
 > Please follow good commit practices and write meaningful messages. Keep each PR focused and small where possible.
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
