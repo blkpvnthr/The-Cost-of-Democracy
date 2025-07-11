@@ -45,8 +45,6 @@ Add your SerpAPI (From our Discord):
 SERPAPI_KEY = "your_api_key_here"
 ```
 
-
-
 ---
 
 ## 🤝 Working as a Team
