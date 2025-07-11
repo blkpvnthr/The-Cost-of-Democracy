@@ -84,7 +84,7 @@ SERPAPI_KEY="your_api_key_here"
 
 > Once the PR is opened, we’ll schedule a quick walkthrough to review your changes.
 
-![Open a Pull Request Example](![alt text](https://github.com/blkpvnthr/The-Cost-of-Democracy/blob/main/images/help/pull-request-start-review-button.png))
+![Open a Pull Request Example](https://github.com/blkpvnthr/The-Cost-of-Democracy/blob/main/images/help/pull-request-start-review-button.png)
 
 ---
 
