@@ -39,20 +39,10 @@ cd the-cost-of-democracy
 pip install -r requirements.txt
 ```
 
-### 3. Set Your SerpAPI Key
+### 3. Set Your SerpAPI Key to a `.env` file or directly into your code:
 Add your SerpAPI (From our Discord):
 ```python
 SERPAPI_KEY = "your_api_key_here"
-```
-
-### 4. Run a Product Price Scrape
-```bash
-python scraper.py "Nintendo Switch OLED"
-```
-
-### 5. Run Price Analysis
-```bash
-python analyze.py --product "Nintendo Switch OLED"
 ```
 
 ---
