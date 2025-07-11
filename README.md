@@ -106,8 +106,6 @@ git commit -m "syncing with main"
 
 - Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
 
-- Try not to make any more commits after you submit your request until it gets approved.
-
 ---
 
 **Made with democracy in mind.**
