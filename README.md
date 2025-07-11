@@ -80,7 +80,7 @@ git commit -m "syncing with main"
 ```
 
 ### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
-> Once the PR is opened we should all meet to go over the changes and how they work.
+> Once the PR is opened we should all meet to go over your changes and how they work.
 
 
 ---
