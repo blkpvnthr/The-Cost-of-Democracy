@@ -63,50 +63,51 @@ Here's how to stay in sync:
 
 ### Git Branching Workflow
 Each team member should:
-1. Create their own feature branch:
+### 1. Create their own feature branch:
 ```bash
     git checkout -b feature/your-feature-name
  ```
 
-2. Set their branch as the upstream:
+### 2. Set their branch as the upstream:
 ```bash
     git push --set-upstream origin your-feature-branch
 ```
 
-3. Before making new changes, always sync with main using rebase. Make sure your working directory is clean first::
+### 3. Before making new changes, always sync with main using rebase. Make sure your working directory is clean first::
 ```bash 
     git status  # Check for uncommitted changes
     git pull --rebase origin main
 ```
 
-4. If git status shows changed files (in red), stage them to avoid conflicts:
+### 4. If git status shows changed files (in red), stage them to avoid conflicts:
 ```bash
    git add .
    git commit -m "syncing with main"
 ```
 
-5. Make your changes, commit, and push:
+### 5. Make your changes, commit, and push:
 ```bash
     git add .
     git commit -m "your descriptive commit message"
     git push
 ```
 
-6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
+### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
 
 ---
+
 ### Best Practices
-> Use meaningful branch names like feature/price-alerts or fix/yoy-analysis.
+- Use meaningful branch names like feature/price-alerts or fix/yoy-analysis.
 
-> Use clear and consistent commit messages.
+- Use clear and consistent commit messages.
 
-> Keep PRs small and focused.
+- Keep PRs small and focused.
 
-> After submitting a PR, avoid making additional commits unless requested during review.
+- After submitting a PR, avoid making additional commits unless requested during review.
 
-> Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
+- Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
 
-> Try not to make any more commits after you submit your request until it gets approved.
+- Try not to make any more commits after you submit your request until it gets approved.
 
 ---
 
