@@ -64,7 +64,7 @@ Each team member should:
 ### 1. Create their own feature branch:
 ```bash
 git checkout -b feature/your-feature-name
- ```
+```
 
 ### 2. Set their branch as the upstream:
 ```bash
@@ -91,7 +91,7 @@ git commit -m "syncing with main"
 ```
 
 ### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
-    Once the PR is opened we should all meet to go over the changes and how they work.
+> Once the PR is opened we should all meet to go over the changes and how they work.
 
 ---
 
