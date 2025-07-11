@@ -59,9 +59,9 @@ python analyze.py --product "Nintendo Switch OLED"
 
 ## 🤝 Working as a Team
 
-We encourage collaborative development. Here's how to contribute effectively:
+Here's how to stay in sync:
 
-### Use Branches as Upstream
+### Git Branching Workflow
 Each team member should:
 1. Create their own feature branch:
    ```bash
