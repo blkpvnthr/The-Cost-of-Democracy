@@ -1,1 +1,61 @@
-.env/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter Notebooks checkpoints (if used)
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Logs and debug
+*.log
+
+# Data files
+*.csv
+*.db
+*.sqlite
+*.parquet
+price_history.csv
+output/
+
+# Cache
+.cache/
+*.bak
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pipenv
+Pipfile.lock
+
+# Coverage
+htmlcov/
+coverage.xml
+*.cover
+.cache/
+.tox/
