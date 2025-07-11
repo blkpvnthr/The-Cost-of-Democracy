@@ -38,7 +38,7 @@ cd the-cost-of-democracy
 ```bash
 pip install -r requirements.txt
 ```
-Create a free SerpAPI account at [serpapi.com](https://serpapi.com) and get your API key.
+Create a free SerpAPI account at [serpapi.com](https://serpapi.com)  and get your API key.
 
 ### 3. Create a `.env` file and add your SerpAPI key (Git will automatically ignore this file):
 ```env
