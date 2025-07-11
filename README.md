@@ -69,6 +69,7 @@ SERPAPI_KEY="your_api_key_here"
 
 4. **If `git status` shows changes (in red), stage them before continuing:**
    ```bash
+   git status
    git add .
    git commit -m "syncing with main"
    ```
