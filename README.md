@@ -34,12 +34,14 @@ git clone https://github.com/your-username/the-cost-of-democracy.git
 cd the-cost-of-democracy
 ```
 
-### 2. Install Dependencies then go to [SerpAPI](https://serpapi.com/) and create an account to get your API key.
+### 2. Install Dependencies then go to  and create an account to get your API key.
 ```bash
 pip install -r requirements.txt
 ```
+Create a free SerpAPI account at [serpapi.com](https://serpapi.com/)and get your API key.
 
-### 3. Create a `.env` file and add you SerpAPI Key. Git will automatically ignore this file:
+
+### 3. 3. Create a .env file and add your SerpAPI key (Git will automatically ignore this file):
 ```bash
 SERPAPI_KEY = "your_api_key_here"
 ```
