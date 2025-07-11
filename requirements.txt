@@ -1,0 +1,11 @@
+# Core dependencies
+google-search-results==2.4.2
+pandas>=1.5
+python-dotenv>=1.0.0
+
+# Optional tools for automation and visualization
+schedule>=1.2.0
+matplotlib>=3.7
+
+# For CLI or output formatting (optional but useful)
+tabulate>=0.9.0

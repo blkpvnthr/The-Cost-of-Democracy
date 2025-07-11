@@ -64,24 +64,49 @@ Here's how to stay in sync:
 ### Git Branching Workflow
 Each team member should:
 1. Create their own feature branch:
-   ```bash
-   git checkout -b your-feature-branch
-   ```
+```bash
+    git checkout -b feature/your-feature-name
+ ```
+
 2. Set their branch as the upstream:
-   ```bash
-   git push --set-upstream origin your-feature-branch
-   ```
-3. Regularly pull from `main` and rebase or merge to stay in sync:
-   ```bash
-   git fetch origin
-   git checkout your-feature-branch
-   git merge origin/main
-   ```
-4. Push updates and open a Pull Request (PR) against `main`.
+```bash
+    git push --set-upstream origin your-feature-branch
+```
 
-Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
+3. Before making new changes, always sync with main using rebase. Make sure your working directory is clean first::
+```bash 
+    git status  # Check for uncommitted changes
+    git pull --rebase origin main
+```
 
-> Please follow good commit practices and write meaningful messages. Keep each PR focused and small where possible. (Try not to make any more commits after you submit your request.)
+4. If git status shows changed files (in red), stage them to avoid conflicts:
+```bash
+   git add .
+   git commit -m "syncing with main"
+```
+
+5. Make your changes, commit, and push:
+```bash
+    git add .
+    git commit -m "your descriptive commit message"
+    git push
+```
+
+6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
+
+---
+### Best Practices
+> Use meaningful branch names like feature/price-alerts or fix/yoy-analysis.
+
+> Use clear and consistent commit messages.
+
+> Keep PRs small and focused.
+
+> After submitting a PR, avoid making additional commits unless requested during review.
+
+> Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
+
+> Try not to make any more commits after you submit your request until it gets approved.
 
 ---
 
