@@ -34,7 +34,7 @@ git clone https://github.com/your-username/the-cost-of-democracy.git
 cd the-cost-of-democracy
 ```
 
-### 2. Install Dependencies then go to [SerpAPI](https://serpapi.com/) and create an accout to get your API key.
+### 2. Install Dependencies then go to [SerpAPI](https://serpapi.com/) and create an account to get your API key.
 ```bash
 pip install -r requirements.txt
 ```
