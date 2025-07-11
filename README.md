@@ -45,6 +45,7 @@ Add your SerpAPI (From our Discord):
 SERPAPI_KEY = "your_api_key_here"
 ```
 
+
 ---
 
 ## 🤝 Working as a Team
@@ -83,6 +84,7 @@ git commit -m "syncing with main"
 ### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
 > Once the PR is opened we should all meet to go over the changes and how they work.
 
+
 ---
 
 ### Best Practices
@@ -95,6 +97,7 @@ git commit -m "syncing with main"
 - After submitting a PR, avoid making additional commits unless requested during review.
 
 - Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
+
 
 ---
 
