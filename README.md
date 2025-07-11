@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Your SerpAPI Key
-Add your SerpAPI key to a `.env` file or directly in `scraper.py`:
+Add your SerpAPI (From our Discord):
 ```python
 SERPAPI_KEY = "your_api_key_here"
 ```
@@ -58,8 +58,6 @@ python analyze.py --product "Nintendo Switch OLED"
 ---
 
 ## 🤝 Working as a Team
-
-Here's how to stay in sync:
 
 ### Git Branching Workflow
 Each team member should:
