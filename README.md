@@ -56,7 +56,7 @@ SERPAPI_KEY="your_api_key_here"
    git checkout -b feature/your-feature-name
    ```
 
-2. **Set the branch to track the remote:**
+2. **Set the branch to track your remote:**
    ```bash
    git push --set-upstream origin feature/your-feature-name
    ```
