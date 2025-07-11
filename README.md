@@ -57,12 +57,6 @@ python analyze.py --product "Nintendo Switch OLED"
 
 ---
 
-## 🧠 Why This Exists
-
-Politics influence markets — sometimes subtly, sometimes dramatically. This project explores how the **cost of living shifts over the course of presidential terms**, beginning with the 2024 election. By tracking changes over time, it brings evidence to economic conversations too often driven by speculation.
-
----
-
 ## 🤝 Working as a Team
 
 Here's how to stay in sync:
