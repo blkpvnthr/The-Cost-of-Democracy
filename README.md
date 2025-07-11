@@ -82,10 +82,4 @@ PRs welcome! You can:
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 **Made with democracy in mind.**
