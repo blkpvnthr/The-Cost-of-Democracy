@@ -73,12 +73,45 @@ Politics influence markets — sometimes subtly, sometimes dramatically. This pr
 
 ---
 
-## 🤝 Contributions
+## 🤝 Working as a Team
 
-PRs welcome! You can:
-- Add price scraping support for more products or sites
-- Improve visualizations
-- Build a dashboard or web UI
+We encourage collaborative contributions! Here's how to stay in sync:
+
+### Git Branching Workflow
+
+1. **Create a new branch for your work:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+2. **Make your changes and commit them:**
+   ```bash
+   git add .
+   git commit -m "Describe your change"
+   ```
+
+3. **Pull latest changes from `main` before pushing:**
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout feature/your-feature-name
+   git merge main
+   ```
+
+4. **Push your branch and open a pull request (PR):**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Submit a PR** on GitHub and request a review.
+
+> Please follow good commit practices and write meaningful messages. Keep each PR focused and small where possible.
+
+---
+
+## 📄 License
+
+MIT License
 
 ---
 
