@@ -50,7 +50,7 @@ SERPAPI_KEY = "your_api_key_here"
 python scraper.py "Nintendo Switch OLED"
 ```
 
-### 5. Run YoY Price Analysis
+### 5. Run Price Analysis
 ```bash
 python analyze.py --product "Nintendo Switch OLED"
 ```
