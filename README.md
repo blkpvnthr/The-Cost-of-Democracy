@@ -65,7 +65,7 @@ Politics influence markets — sometimes subtly, sometimes dramatically. This pr
 
 ## 🤝 Working as a Team
 
-Here's how to stay in sync:
+We encourage collaborative contributions! Here's how to stay in sync:
 
 ### Git Branching Workflow
 
