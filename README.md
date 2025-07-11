@@ -9,7 +9,7 @@
 ## 🔍 What This Project Does
 
 - 🔎 Search Google Shopping for product prices via [SerpAPI](https://serpapi.com)
-- 🕒 Store historical price data in CSV for longitudinal analysis
+- 🕒 Store historical price data in CSV for analysis
 - 📈 Run price comparisons
 - 📊 Visualize product-level price changes over time
 - 🔔 (Optional) Get alerts when prices shift dramatically
