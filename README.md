@@ -95,7 +95,7 @@ Here's how to stay in sync:
 
 5. **Submit a PR** on GitHub and request a review.
 
-> Please follow good commit practices and write meaningful messages. Keep each PR focused and small where possible.
+> Please follow good commit practices and write meaningful messages. Keep each PR focused and small where possible. (Try not to make any more commits after you submit your request.)
 
 ---
 
