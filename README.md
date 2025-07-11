@@ -34,16 +34,15 @@ git clone https://github.com/your-username/the-cost-of-democracy.git
 cd the-cost-of-democracy
 ```
 
-### 2. Install Dependencies then go to  and create an account to get your API key.
+### 2. Install Dependencies and Get Your SerpAPI Key
 ```bash
 pip install -r requirements.txt
 ```
-Create a free SerpAPI account at [serpapi.com](https://serpapi.com/)and get your API key.
+Create a free SerpAPI account at [serpapi.com](https://serpapi.com) and get your API key.
 
-
-### 3. 3. Create a .env file and add your SerpAPI key (Git will automatically ignore this file):
-```bash
-SERPAPI_KEY = "your_api_key_here"
+### 3. Create a `.env` file and add your SerpAPI key (Git will automatically ignore this file):
+```env
+SERPAPI_KEY="your_api_key_here"
 ```
 
 ---
@@ -51,53 +50,48 @@ SERPAPI_KEY = "your_api_key_here"
 ## 🤝 Working as a Team
 
 ### Git Branching Workflow
-Each team member should:
-### 1. Create their own feature branch:
-```bash
-git checkout -b feature/your-feature-name
-```
 
-### 2. Set their branch as the upstream:
-```bash
- git push --set-upstream origin your-feature-branch
-```
+1. **Create a new feature branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-### 3. Before making new changes, always sync with main using rebase. Make sure your working directory is clean first::
-```bash 
- git status  # Check for uncommitted changes
- git pull --rebase origin main
-```
+2. **Set the branch to track the remote:**
+   ```bash
+   git push --set-upstream origin feature/your-feature-name
+   ```
 
-### 4. If git status shows changed files (in red), stage them to avoid conflicts:
-```bash
-git add .
-git commit -m "syncing with main"
-```
+3. **Before making new changes, sync with `main` using rebase. Ensure your working directory is clean:**
+   ```bash
+   git status        # Check for uncommitted changes
+   git pull --rebase origin main
+   ```
 
-### 5. Make your changes, commit, and push:
-```bash
- git add .
- git commit -m "your descriptive commit message"
- git push
-```
+4. **If `git status` shows changes (in red), stage them before continuing:**
+   ```bash
+   git add .
+   git commit -m "syncing with main"
+   ```
 
-### 6. Open a Pull Request (PR) on GitHub to merge your feature branch into main.
-> Once the PR is opened we should all meet to go over your changes and how they work.
+5. **Make your changes, then commit and push:**
+   ```bash
+   git add .
+   git commit -m "your descriptive commit message"
+   git push
+   ```
 
+6. **Open a Pull Request (PR)** on GitHub to merge your feature branch into `main`.
+
+> Once the PR is opened, we’ll schedule a quick walkthrough to review your changes.
 
 ---
 
-### Best Practices
-- Use meaningful branch names like feature/price-alerts or fix/yoy-analysis.
-
-- Use clear and consistent commit messages.
-
-- Keep PRs small and focused.
-
-- After submitting a PR, avoid making additional commits unless requested during review.
+### ✅ Best Practices
 
 - Use meaningful branch names like `feature/price-alerts` or `fix/yoy-analysis`.
-
+- Write clear and consistent commit messages.
+- Keep PRs small and focused.
+- Avoid making more commits after submitting a PR unless part of review feedback.
 
 ---
 
