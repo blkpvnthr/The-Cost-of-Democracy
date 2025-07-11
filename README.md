@@ -84,6 +84,8 @@ SERPAPI_KEY="your_api_key_here"
 
 > Once the PR is opened, we’ll schedule a quick walkthrough to review your changes.
 
+![Open a Pull Request Example](https://docs.github.com/assets/images/help/pull-request-start-review-button.png)
+
 ---
 
 ### ✅ Best Practices
