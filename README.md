@@ -49,7 +49,7 @@ SERPAPI_KEY="your_api_key_here"
 
 ## 🤝 Working as a Team
 
-### Git Branching Workflow
+### Git   Branching Workflow
 
 1. **Create a new feature branch:**
    ```bash
