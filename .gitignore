@@ -59,3 +59,4 @@ coverage.xml
 *.cover
 .cache/
 .tox/
+.history/
