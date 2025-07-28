@@ -8,7 +8,7 @@ SerpApi-based price estimation with Google Shopping → Web fallback,
 per-item bounds, and median aggregation.
 
 In this analysis, I will:
-- Fetch prices for Milk, Eggs, and Eye Drops from 2016, 2024, and the current year.
+- Fetch prices for Sugar, Ground Beef and Eye Drops from 2016, 2024, and the current year.
 - Calculate price changes from 2024 to the current year.
 - Save results to CSV and generate plots.
 
