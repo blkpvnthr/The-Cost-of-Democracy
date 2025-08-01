@@ -1,11 +1,31 @@
-# Core dependencies
-google-search-results==2.4.2
-pandas>=1.5
-python-dotenv>=1.0.0
+# --- Core project requirements ---
+pandas
+matplotlib
+python-dotenv
+requests
+beautifulsoup4
+prettytable
 
-# Optional tools for automation and visualization
-schedule>=1.2.0
-matplotlib>=3.7
+# --- Data processing and analysis ---
+numpy
+scipy
+scikit-learn
+statsmodels
 
-# For CLI or output formatting (optional but useful)
-tabulate>=0.9.0
+# --- Visualization ---
+seaborn
+plotly
+
+# --- Web scraping and API interaction ---
+beautifulsoup4
+requests
+serpapi
+
+# --- Additional dependencies ---
+packaging
+pandas-datareader
+pandocfilters
+parso
+pathspec
+patsy
+pbr
