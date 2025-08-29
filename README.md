@@ -4,6 +4,8 @@
 
 > A lightweight, data-driven project that scrapes and analyzes product prices over time to explore the economic aftermath of U.S. democratic transitions. Built using Python, SerpAPI, and pandas.
 
+![Demo GIF](https://github.com/blkpvnthr/The-Cost-of-Democracy/blob/main/assets/TCOD.gif)
+
 ---
 
 ## 🔍 What This Project Does
@@ -40,7 +42,7 @@ pip install -r requirements.txt
 ```
 Create a free SerpAPI account at [serpapi.com](https://serpapi.com)  and get your API key.
 
-### 3. Create a `.env` file and add your SerpAPI key (Git will automatically ignore this file):
+### 3. Create a `.env` file and add your SerpAPI key (Git will automatically ignore this file)
 ```env
 SERPAPI_KEY="your_api_key_here"
 ```
@@ -67,9 +69,8 @@ SERPAPI_KEY="your_api_key_here"
    git pull --rebase origin main
    ```
 
-4. **If `git status` shows changes (in red), stage them before continuing:**
+4. **If there are changes (in red), stage them before continuing:**
    ```bash
-   git status
    git add .
    git commit -m "syncing with main"
    ```
